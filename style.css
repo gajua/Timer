@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+  height: 100vh;
+}
+.logo {
+  width: fit-content;
+  padding: 72px 0 60px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 244px;
+  height: 48px;
+}
+article {
+  width: 400px;
+  height: 360px;
+  margin: 0 auto;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tit-txt {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  width: 312px;
+  padding: 48px 0 23px;
+  border-bottom: 1px solid #3D538A;
+}
+.time {
+  position: relative;
+  display: flex;
+  padding-top: 33px;
+  text-align: center;
+  width: 312px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.time div p {
+  padding: 4px;
+  color: #a5b6ee;
+  font-weight: 700;
+  font-size: 12px;
+}
+input {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: block;
+  background: url(./img/box.png);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  border: 1px solid #354971;
+  border-radius: 4px;
+
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  position: absolute;
+  width: 10px;
+  margin: 0;
+}
+.dot1{
+  position: absolute;
+  left: 100px;
+  top: 86px;
+}
+.dot2{
+  position: absolute;
+  top: 86px;
+  right: 100px;
+}
+.btn-section {
+  display: flex;
+  margin: 40px;
+  gap: 12px;
+}
+button {
+  cursor: pointer;
+  background: #324577;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  width: 112px;
+  height: 48px;
+  border: 0;
+}
+.btn-start {
+  background: url(./img/button/start-disabled.png);
+}
+.btn-start.active {
+  background: url(./img/button/pause.png);
+}
+.btn-reset {
+  background: url(./img/button/reset-disabled.png);
+}
+.btn-reset.active {
+  background: url(./img/button/reset-default.png);
+}
