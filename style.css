@@ -41,6 +41,7 @@ article {
   border-bottom: 1px solid #3D538A;
 }
 .time {
+  border-top: 1px solid #5B75B4;
   position: relative;
   display: flex;
   padding-top: 33px;
